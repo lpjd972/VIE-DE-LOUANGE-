@@ -1,12 +1,50 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import React from 'react';
+import VinylHero from '@/components/VinylHero';
+import About from './About';
+import Journey from './Journey';
+import Skills from './Skills';
+import Inspirations from './Inspirations';
+import Gallery from './Gallery';
+import Contact from './Contact';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="bg-vintage-teal text-vintage-cream overflow-x-hidden">
+      {/* Hero section */}
+      <section id="home">
+        <VinylHero />
+      </section>
+      
+      {/* Individual sections */}
+      <section id="about">
+        <About />
+      </section>
+      
+      <section id="journey">
+        <Journey />
+      </section>
+      
+      <section id="skills">
+        <Skills />
+      </section>
+      
+      <section id="inspirations">
+        <Inspirations />
+      </section>
+      
+      <section id="gallery">
+        <Gallery />
+      </section>
+      
+      <section id="contact">
+        <Contact />
+      </section>
+      
+      {/* Footer */}
+      <footer className="py-6 text-center text-vintage-cream/50 text-sm">
+        <p>© {new Date().getFullYear()} ÉDOUARD'S - Portfolio Musical</p>
+      </footer>
     </div>
   );
 };

@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Vintage palette
+				vintage: {
+					teal: '#0B3B39',
+					cream: '#EDE6D6',
+					terracotta: '#D45D50',
+					darkCream: '#D2BFA8',
+					darkTerracotta: '#9D4539'
 				}
 			},
 			borderRadius: {
@@ -84,11 +93,29 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'spin-slow': {
+					'0%': { transform: 'rotate(0deg)' },
+					'100%': { transform: 'rotate(360deg)' },
+				},
+				'fade-in': {
+					'0%': { opacity: '0' },
+					'100%': { opacity: '1' },
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'spin-slow': 'spin-slow 20s linear infinite',
+				'fade-in': 'fade-in 1s ease-out'
+			},
+			fontFamily: {
+				'vintage': ['Playfair Display', 'serif'],
+				'sans': ['Inter', 'sans-serif'],
+			},
+			backgroundImage: {
+				'vinyl-texture': "url('/public/lovable-uploads/c7617fbd-6b90-4053-8bb5-e7b7275f812d.png')",
+				'noise': "url('/noise.png')",
 			}
 		}
 	},
