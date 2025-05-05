@@ -10,6 +10,10 @@ import About from "./pages/About";
 import Journey from "./pages/Journey";
 import Skills from "./pages/Skills";
 import Inspirations from "./pages/Inspirations";
+import Shop from "./pages/Shop";
+import Message from "./pages/Message";
+import Newsletter from "./pages/Newsletter";
+import Support from "./pages/Support";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
@@ -29,6 +33,10 @@ const App = () => (
           <Route path="/journey" element={<Journey />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/inspirations" element={<Inspirations />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/message" element={<Message />} />
+          <Route path="/newsletter" element={<Newsletter />} />
+          <Route path="/support" element={<Support />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
           {/* Catch-all route */}

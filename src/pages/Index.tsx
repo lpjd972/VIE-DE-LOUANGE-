@@ -5,6 +5,10 @@ import About from './About';
 import Journey from './Journey';
 import Skills from './Skills';
 import Inspirations from './Inspirations';
+import Shop from './Shop';
+import Message from './Message';
+import Newsletter from './Newsletter';
+import Support from './Support';
 import Gallery from './Gallery';
 import Contact from './Contact';
 
@@ -31,6 +35,22 @@ const Index = () => {
       
       <section id="inspirations">
         <Inspirations />
+      </section>
+      
+      <section id="shop">
+        <Shop />
+      </section>
+      
+      <section id="message">
+        <Message />
+      </section>
+      
+      <section id="newsletter">
+        <Newsletter />
+      </section>
+      
+      <section id="support">
+        <Support />
       </section>
       
       <section id="gallery">

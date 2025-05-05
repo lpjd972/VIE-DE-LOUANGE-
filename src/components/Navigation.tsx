@@ -14,6 +14,10 @@ const Navigation = () => {
     { name: 'Parcours', path: '/journey' },
     { name: 'Compétences', path: '/skills' },
     { name: 'Inspirations', path: '/inspirations' },
+    { name: 'Boutique', path: '/shop' },
+    { name: 'Message', path: '/message' },
+    { name: 'Newsletter', path: '/newsletter' },
+    { name: 'Soutien', path: '/support' },
     { name: 'Galerie', path: '/gallery' },
     { name: 'Contact', path: '/contact' }
   ];
