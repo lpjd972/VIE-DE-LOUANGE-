@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Music, Disc, Headphones, Instagram, Mail, Youtube, Globe, ChevronDown } from 'lucide-react';
+import { Music, Disc, Headphones, Instagram, Mail, Youtube } from 'lucide-react';
 
 const VinylHero = () => {
   const scrollToNext = () => {
@@ -57,10 +57,6 @@ const VinylHero = () => {
           <a href="#" className="vintage-button flex items-center gap-2">
             <Headphones size={18} />
             <span>Soundcloud</span>
-          </a>
-          <a href="#" className="vintage-button flex items-center gap-2">
-            <Globe size={18} />
-            <span>Site Web</span>
           </a>
         </div>
         
