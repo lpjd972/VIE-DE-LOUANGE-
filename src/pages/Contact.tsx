@@ -4,9 +4,21 @@ import { Mail, Instagram, Youtube, Headphones, Globe, QrCode } from 'lucide-reac
 
 const Contact = () => {
   const socialLinks = [
-    { name: 'YouTube', icon: <Youtube size={24} className="text-vintage-terracotta" /> },
-    { name: 'Instagram', icon: <Instagram size={24} className="text-vintage-terracotta" /> },
-    { name: 'Spotify', icon: <Headphones size={24} className="text-vintage-terracotta" /> }
+    { 
+      name: 'YouTube', 
+      icon: <Youtube size={24} className="text-vintage-terracotta" />,
+      url: 'https://www.youtube.com/channel/UCnq2y0lbnKHDJDzGNYh17_g'
+    },
+    { 
+      name: 'Instagram', 
+      icon: <Instagram size={24} className="text-vintage-terracotta" />,
+      url: '#'
+    },
+    { 
+      name: 'Spotify', 
+      icon: <Headphones size={24} className="text-vintage-terracotta" />,
+      url: '#'
+    }
   ];
 
   return (
@@ -25,7 +37,14 @@ const Contact = () => {
                     {link.icon}
                     <span className="text-vintage-cream/90">{link.name}</span>
                   </div>
-                  <a href="#" className="vintage-button text-sm">Bientôt disponible</a>
+                  <a 
+                    href={link.url} 
+                    target={link.url !== '#' ? '_blank' : undefined}
+                    rel={link.url !== '#' ? 'noopener noreferrer' : undefined}
+                    className="vintage-button text-sm"
+                  >
+                    {link.url !== '#' ? 'Visiter' : 'Bientôt disponible'}
+                  </a>
                 </div>
               ))}
             </div>

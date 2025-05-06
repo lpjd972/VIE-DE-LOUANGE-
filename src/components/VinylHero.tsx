@@ -50,7 +50,7 @@ const VinylHero = () => {
             <Instagram size={18} />
             <span>Instagram</span>
           </a>
-          <a href="#" className="vintage-button flex items-center gap-2">
+          <a href="https://www.youtube.com/channel/UCnq2y0lbnKHDJDzGNYh17_g" target="_blank" rel="noopener noreferrer" className="vintage-button flex items-center gap-2">
             <Youtube size={18} />
             <span>YouTube</span>
           </a>
