@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Camera } from 'lucide-react';
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 
 const About = () => {
   return (
@@ -25,13 +25,17 @@ const About = () => {
         </div>
         
         <div className="flex justify-center">
-          <div className="relative w-64 h-80 border-4 border-vintage-cream/30 rounded">
-            <div className="absolute inset-0 flex items-center justify-center bg-vintage-cream/10">
-              <div className="text-center">
-                <Camera size={48} className="mx-auto text-vintage-cream/50 mb-4" />
-                <p className="text-vintage-cream/70">Photo à venir</p>
-              </div>
-            </div>
+          <div className="relative w-64 h-80 border-4 border-vintage-cream/30 rounded overflow-hidden">
+            <Avatar className="w-full h-full rounded-none">
+              <AvatarImage 
+                src="/lovable-uploads/8207c732-d269-4054-ad07-bf298b1410c3.png" 
+                alt="Photo de profil avec saxophone" 
+                className="object-cover w-full h-full"
+              />
+              <AvatarFallback className="w-full h-full text-lg bg-vintage-cream/10">
+                ÉDOUARD'S
+              </AvatarFallback>
+            </Avatar>
           </div>
         </div>
       </div>
