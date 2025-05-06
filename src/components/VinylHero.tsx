@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Music, Disc, Headphones, Instagram, Mail, Youtube } from 'lucide-react';
+import { Music, Disc, Headphones, Instagram, Mail, Youtube, ChevronDown } from 'lucide-react';
 
 const VinylHero = () => {
   const scrollToNext = () => {
