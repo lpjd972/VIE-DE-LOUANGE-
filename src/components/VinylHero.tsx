@@ -46,7 +46,7 @@ const VinylHero = () => {
             <Mail size={18} />
             <span>Email</span>
           </a>
-          <a href="#" className="vintage-button flex items-center gap-2">
+          <a href="https://www.instagram.com/jean_denis_972/" target="_blank" rel="noopener noreferrer" className="vintage-button flex items-center gap-2">
             <Instagram size={18} />
             <span>Instagram</span>
           </a>

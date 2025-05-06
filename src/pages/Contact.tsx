@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Mail, Instagram, Youtube, Headphones, Globe, QrCode } from 'lucide-react';
+import { Mail, Instagram, Youtube, Headphones, QrCode } from 'lucide-react';
 
 const Contact = () => {
   const socialLinks = [
@@ -12,7 +12,7 @@ const Contact = () => {
     { 
       name: 'Instagram', 
       icon: <Instagram size={24} className="text-vintage-terracotta" />,
-      url: '#'
+      url: 'https://www.instagram.com/jean_denis_972/'
     },
     { 
       name: 'Spotify', 
