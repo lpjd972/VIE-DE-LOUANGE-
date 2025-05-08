@@ -56,12 +56,12 @@ const Journey = () => {
               <div className="flex items-center gap-3 mb-2">
                 <Heart size={24} className="text-vintage-terracotta" />
                 <Link to="/support" className="hover:text-vintage-terracotta transition-colors">
-                  <h3 className="text-xl font-bold">SOUTIEN EVOLUTIFS</h3>
+                  <h3 className="text-xl font-bold">SOUTIENS EVOLUTIFS</h3>
                 </Link>
               </div>
               <p className="text-vintage-cream/80">
                 Suite à cela ma famille et moi même vous annonçons un onglet "soutien" que l'on a mis en place 
-                pour nous aider dans notre ministère vous le retrouverai après l'onglet "Newsletter" 
+                pour nous aider dans notre projet vous le retrouverai après l'onglet "Newsletter" 
                 en haut droite dans l'en-tête du site 😊
               </p>
             </div>
