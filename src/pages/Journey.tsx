@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Music2, Drum, Radio, Heart } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Journey = () => {
   return (
@@ -54,7 +55,9 @@ const Journey = () => {
             <div className="ml-4">
               <div className="flex items-center gap-3 mb-2">
                 <Heart size={24} className="text-vintage-terracotta" />
-                <h3 className="text-xl font-bold">SOUTIEN EVOLUTIFS</h3>
+                <Link to="/support" className="hover:text-vintage-terracotta transition-colors">
+                  <h3 className="text-xl font-bold">SOUTIEN EVOLUTIFS</h3>
+                </Link>
               </div>
               <p className="text-vintage-cream/80">
                 Suite à cela ma famille et moi même vous annonçons un onglet "soutien" que l'on a mis en place 

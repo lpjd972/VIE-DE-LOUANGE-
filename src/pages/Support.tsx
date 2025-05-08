@@ -184,11 +184,18 @@ const Support = () => {
         </h2>
         
         <div className="flex justify-center">
-          <stripe-buy-button
-            buy-button-id="buy_btn_1R0MlJKHh5gia1OaJ4jyqxDW"
-            publishable-key="pk_live_51QDBMFKHh5gia1OawoKLfdAVwzEDTvHk8fdSZaWZGCvdPtFSE2ZFN8LejyIm01Ycq5fP3MiXDZKLo16k9Ba4Gsuy00k4HdzgQS"
-          >
-          </stripe-buy-button>
+          {/* Using dangerouslySetInnerHTML to render the Stripe Buy Button */}
+          <div
+            dangerouslySetInnerHTML={{
+              __html: `
+                <stripe-buy-button
+                  buy-button-id="buy_btn_1R0MlJKHh5gia1OaJ4jyqxDW"
+                  publishable-key="pk_live_51QDBMFKHh5gia1OawoKLfdAVwzEDTvHk8fdSZaWZGCvdPtFSE2ZFN8LejyIm01Ycq5fP3MiXDZKLo16k9Ba4Gsuy00k4HdzgQS"
+                >
+                </stripe-buy-button>
+              `
+            }}
+          />
         </div>
         
         <p className="mt-6 text-vintage-cream/80 italic text-sm">
