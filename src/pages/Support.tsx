@@ -1,6 +1,5 @@
 
 import React, { useEffect, useRef } from 'react';
-import { HandHeart } from 'lucide-react';
 
 const Support = () => {
   const elementsRef = useRef<(HTMLElement | null)[]>([]);
@@ -76,33 +75,24 @@ const Support = () => {
         </div>
       </div>
       
-      <div className="vintage-card max-w-3xl mx-auto text-center">
-        <div 
-          className="mx-auto text-vintage-cream/70 mb-6 opacity-0 -translate-x-full"
-          ref={(el) => (elementsRef.current[4] = el)}
-        >
-          <HandHeart size={64} className="mx-auto" />
-        </div>
-        <h2 
-          className="text-2xl md:text-3xl font-bold mb-6 opacity-0 -translate-x-full"
-          ref={(el) => (elementsRef.current[5] = el)}
-        >
-          Me soutenir
-        </h2>
-        <p 
-          className="text-vintage-cream/90 mb-6 opacity-0 -translate-x-full"
-          ref={(el) => (elementsRef.current[6] = el)}
-        >
-          Cette section est en cours de développement. Elle permettra bientôt de soutenir mon parcours 
-          musical et mes projets artistiques de différentes manières.
-        </p>
-        <div 
-          className="bg-vintage-terracotta/20 border border-vintage-terracotta/40 p-4 rounded-md mt-8 opacity-0 -translate-x-full"
-          ref={(el) => (elementsRef.current[7] = el)}
-        >
-          <p className="text-center italic font-medium">
-            "Votre soutien est précieux pour le développement de nouveaux projets"
-          </p>
+      <div 
+        className="vintage-card max-w-5xl mx-auto opacity-0 -translate-x-full"
+        ref={(el) => (elementsRef.current[4] = el)}
+      >
+        <div className="relative">
+          <img 
+            src="/lovable-uploads/f0635c91-86eb-4b22-b781-fda68db1d487.png" 
+            alt="SEL - Service d'Entraide et de Liaison" 
+            className="w-full h-auto rounded-lg shadow-xl"
+          />
+          <div 
+            className="bg-vintage-terracotta/20 border border-vintage-terracotta/40 p-4 rounded-md mt-8"
+            ref={(el) => (elementsRef.current[7] = el)}
+          >
+            <p className="text-center italic font-medium">
+              "Votre soutien est précieux pour le développement de nouveaux projets"
+            </p>
+          </div>
         </div>
       </div>
     </div>
