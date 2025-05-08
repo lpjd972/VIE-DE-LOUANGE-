@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 
 const Support = () => {
@@ -103,7 +102,7 @@ const Support = () => {
               className="text-vintage-cream/90 mb-6 opacity-0 translate-x-full"
               ref={(el) => (elementsRef.current[2] = el)}
             >
-              Nous comptons sur votre soutiens par la prière mais également financier afin que ce site puisse continuer à suivre. L'objectif principal du site étant de partager le message de l'évangile à un maximum de personnes grâce à différents outils mis en place.
+              Nous comptons sur votre soutiens par la prière mais également financier afin que ce site puisse continuer à vivre. L'objectif principal du site étant de partager le message de l'évangile à un maximum de personnes grâce à différents outils mis en place.
             </p>
             
             <p 
