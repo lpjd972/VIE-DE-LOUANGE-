@@ -40,7 +40,10 @@ const Support = () => {
       
       <div className="vintage-card max-w-4xl mx-auto mb-12">
         <div className="grid md:grid-cols-2 gap-8">
-          <div>
+          <div 
+            className="opacity-0 -translate-x-full"
+            ref={(el) => (elementsRef.current[8] = el)}
+          >
             <img 
               src="/lovable-uploads/b094d5d2-56cb-49c1-84a6-a65ae10ed58f.png" 
               alt="Soutiens" 
