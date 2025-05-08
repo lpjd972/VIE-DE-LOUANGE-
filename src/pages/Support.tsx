@@ -1,8 +1,23 @@
+
 import React, { useEffect, useRef } from 'react';
+import { Button } from '@/components/ui/button';
+import { Heart } from 'lucide-react';
 
 const Support = () => {
   const elementsRef = useRef<(HTMLElement | null)[]>([]);
   
+  useEffect(() => {
+    // Load Stripe Buy Button script
+    const script = document.createElement('script');
+    script.src = 'https://js.stripe.com/v3/buy-button.js';
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -111,6 +126,28 @@ const Support = () => {
             >
               A chaque don versé 10 % sera reversé pour l'oeuvre missionnaire du SEL.
             </p>
+            
+            {/* Donation button section */}
+            <div 
+              className="opacity-0 translate-x-full mb-8"
+              ref={(el) => (elementsRef.current[12] = el)}
+            >
+              <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+                <Button 
+                  className="bg-vintage-terracotta hover:bg-vintage-darkTerracotta text-vintage-cream font-medium flex items-center gap-2 px-6 py-5"
+                  onClick={() => {
+                    const stripeContainer = document.getElementById('stripe-donation-container');
+                    if (stripeContainer) {
+                      stripeContainer.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
+                >
+                  <Heart className="w-5 h-5" />
+                  Faire un don
+                </Button>
+                <span className="text-vintage-cream/80 italic text-sm">Votre générosité permet à ce ministère de continuer</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -134,6 +171,29 @@ const Support = () => {
             </p>
           </div>
         </div>
+      </div>
+
+      {/* Stripe donation section */}
+      <div 
+        id="stripe-donation-container"
+        className="vintage-card max-w-3xl mx-auto mt-16 opacity-0 translate-x-full text-center"
+        ref={(el) => (elementsRef.current[13] = el)}
+      >
+        <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">
+          Faire un don
+        </h2>
+        
+        <div className="flex justify-center">
+          <stripe-buy-button
+            buy-button-id="buy_btn_1R0MlJKHh5gia1OaJ4jyqxDW"
+            publishable-key="pk_live_51QDBMFKHh5gia1OawoKLfdAVwzEDTvHk8fdSZaWZGCvdPtFSE2ZFN8LejyIm01Ycq5fP3MiXDZKLo16k9Ba4Gsuy00k4HdzgQS"
+          >
+          </stripe-buy-button>
+        </div>
+        
+        <p className="mt-6 text-vintage-cream/80 italic text-sm">
+          Tous les dons sont sécurisés via Stripe
+        </p>
       </div>
     </div>
   );
