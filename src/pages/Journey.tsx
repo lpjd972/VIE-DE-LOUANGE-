@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Music2, Drum, Radio } from 'lucide-react';
+import { Music2, Drum, Radio, Heart } from 'lucide-react';
 
 const Journey = () => {
   return (
@@ -46,6 +46,20 @@ const Journey = () => {
                 Récemment, j'ai découvert un nouvel instrument qui m'inspire particulièrement et
                 m'ouvre de nouvelles perspectives musicales. Je continue d'explorer ses possibilités
                 et d'élargir mon répertoire.
+              </p>
+            </div>
+          </div>
+          
+          <div className="vintage-timeline-item">
+            <div className="ml-4">
+              <div className="flex items-center gap-3 mb-2">
+                <Heart size={24} className="text-vintage-terracotta" />
+                <h3 className="text-xl font-bold">SOUTIEN EVOLUTIFS</h3>
+              </div>
+              <p className="text-vintage-cream/80">
+                Suite à cela ma famille et moi même vous annonçons un onglet "soutien" que l'on a mis en place 
+                pour nous aider dans notre ministère vous le retrouverai après l'onglet "Newsletter" 
+                en haut droite dans l'en-tête du site 😊
               </p>
             </div>
           </div>
