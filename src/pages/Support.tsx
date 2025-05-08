@@ -42,7 +42,7 @@ const Support = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <div>
             <img 
-              src="/lovable-uploads/bc50cf90-8ba9-41af-93f2-d11956abd4f3.png" 
+              src="/lovable-uploads/b094d5d2-56cb-49c1-84a6-a65ae10ed58f.png" 
               alt="Soutiens" 
               className="w-full h-auto rounded-md shadow-lg"
             />
@@ -74,11 +74,12 @@ const Support = () => {
       </div>
       
       <div className="vintage-card max-w-3xl mx-auto text-center">
-        <HandHeart 
-          size={64} 
+        <div 
           className="mx-auto text-vintage-cream/70 mb-6 opacity-0 -translate-x-full"
           ref={(el) => (elementsRef.current[4] = el)}
-        />
+        >
+          <HandHeart size={64} className="mx-auto" />
+        </div>
         <h2 
           className="text-2xl md:text-3xl font-bold mb-6 opacity-0 -translate-x-full"
           ref={(el) => (elementsRef.current[5] = el)}
