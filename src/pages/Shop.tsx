@@ -16,8 +16,8 @@ const Shop = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="aspect-square bg-vintage-cream/10 rounded-lg overflow-hidden flex items-center justify-center">
               <img 
-                src="/lovable-uploads/3c87d331-f2be-4674-b12b-f1e68f578413.png" 
-                alt="Saxophone JESUS Collection" 
+                src="/lovable-uploads/f34656d6-bb40-443e-b53f-2ae8266c6850.png" 
+                alt="Collection Instruments de Musique" 
                 className="object-contain w-full h-full p-4"
               />
             </div>
@@ -31,7 +31,7 @@ const Shop = () => {
                 <Button 
                   variant="outline" 
                   className="border-vintage-terracotta text-vintage-cream hover:bg-vintage-terracotta/20"
-                  onClick={() => window.open('https://www.redbubble.com/fr/shop/ap/170442311?asc=u', '_blank')}
+                  onClick={() => window.open('https://www.redbubble.com/fr/shop/ap/170487847?asc=u', '_blank')}
                 >
                   Voir la collection <ExternalLink className="ml-2 h-4 w-4" />
                 </Button>
