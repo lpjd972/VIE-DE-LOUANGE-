@@ -2,42 +2,72 @@
 import React from 'react';
 import { ShoppingCart, ExternalLink } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { 
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious
+} from '@/components/ui/carousel';
 
 const Shop = () => {
+  const collections = [
+    {
+      title: "Collection Instruments de Musique",
+      image: "/lovable-uploads/f34656d6-bb40-443e-b53f-2ae8266c6850.png",
+      description: "Découvrez ma première collection d'articles disponible sur Redbubble. Des designs uniques inspirés par ma passion musicale.",
+      link: "https://www.redbubble.com/fr/shop/ap/170487847?asc=u"
+    },
+    {
+      title: "Collection Saxophone JESUS",
+      image: "/lovable-uploads/3c87d331-f2be-4674-b12b-f1e68f578413.png",
+      description: "Ma collection spéciale avec des designs uniques de saxophone. Exprimez votre foi et votre amour pour la musique avec cette collection exclusive.",
+      link: "https://www.redbubble.com/fr/shop/ap/170442311?asc=u"
+    }
+  ];
+
   return (
     <div className="vintage-section container mx-auto px-4">
       <h1 className="text-4xl md:text-5xl font-bold mb-12 text-center">Boutique</h1>
       
       <div className="max-w-5xl mx-auto">
-        {/* First product */}
         <div className="vintage-card mb-12 p-6">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">Collection Disponible</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">Collections Disponibles</h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-            <div className="aspect-square bg-vintage-cream/10 rounded-lg overflow-hidden flex items-center justify-center">
-              <img 
-                src="/lovable-uploads/f34656d6-bb40-443e-b53f-2ae8266c6850.png" 
-                alt="Collection Instruments de Musique" 
-                className="object-contain w-full h-full p-4"
-              />
-            </div>
-            <div className="space-y-4">
-              <h3 className="text-xl font-bold">Ma Collection sur Redbubble</h3>
-              <p className="text-vintage-cream/90">
-                Découvrez ma première collection d'articles disponible sur Redbubble. Des designs uniques 
-                inspirés par ma passion musicale.
-              </p>
-              <div className="flex gap-4 pt-4">
-                <Button 
-                  variant="outline" 
-                  className="border-vintage-terracotta text-vintage-cream hover:bg-vintage-terracotta/20"
-                  onClick={() => window.open('https://www.redbubble.com/fr/shop/ap/170487847?asc=u', '_blank')}
-                >
-                  Voir la collection <ExternalLink className="ml-2 h-4 w-4" />
-                </Button>
-              </div>
-            </div>
-          </div>
+          <Carousel className="w-full">
+            <CarouselContent>
+              {collections.map((collection, index) => (
+                <CarouselItem key={index}>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center p-2">
+                    <div className="aspect-square bg-vintage-cream/10 rounded-lg overflow-hidden flex items-center justify-center">
+                      <img 
+                        src={collection.image}
+                        alt={collection.title} 
+                        className="object-contain w-full h-full p-4"
+                      />
+                    </div>
+                    <div className="space-y-4">
+                      <h3 className="text-xl font-bold">{collection.title}</h3>
+                      <p className="text-vintage-cream/90">
+                        {collection.description}
+                      </p>
+                      <div className="flex gap-4 pt-4">
+                        <Button 
+                          variant="outline" 
+                          className="border-vintage-terracotta text-vintage-cream hover:bg-vintage-terracotta/20"
+                          onClick={() => window.open(collection.link, '_blank')}
+                        >
+                          Voir la collection <ExternalLink className="ml-2 h-4 w-4" />
+                        </Button>
+                      </div>
+                    </div>
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className="left-0 md:-left-12" />
+            <CarouselNext className="right-0 md:-right-12" />
+          </Carousel>
         </div>
         
         {/* Coming Soon Section */}
