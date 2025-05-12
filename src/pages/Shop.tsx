@@ -16,9 +16,9 @@ const Shop = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="aspect-square bg-vintage-cream/10 rounded-lg overflow-hidden flex items-center justify-center">
               <img 
-                src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9" 
-                alt="Édouard's Collection" 
-                className="object-cover w-full h-full"
+                src="/lovable-uploads/3c87d331-f2be-4674-b12b-f1e68f578413.png" 
+                alt="Saxophone JESUS Collection" 
+                className="object-contain w-full h-full p-4"
               />
             </div>
             <div className="space-y-4">
