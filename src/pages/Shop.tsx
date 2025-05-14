@@ -29,6 +29,12 @@ const Shop = () => {
       image: "/lovable-uploads/d6a5877c-ea40-488e-acc6-3380c82c142e.png",
       description: "Explorez ma nouvelle collection dédiée à la foi chrétienne. Des designs élégants pour tous les croyants.",
       link: "https://www.redbubble.com/fr/shop/ap/170486995?asc=u"
+    },
+    {
+      title: "Gospel Sax Edition",
+      image: "/lovable-uploads/94e86876-1880-4f94-9f09-043177e2dc6c.png",
+      description: "Découvrez notre collection Gospel Sax avec des designs dorés élégants. L'harmonie parfaite entre musique et spiritualité.",
+      link: "https://www.redbubble.com/fr/shop/ap/170678156?asc=u"
     }
   ];
 
@@ -46,7 +52,7 @@ const Shop = () => {
         </div>
         
         {/* Main Collections Section */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {collections.map((collection, index) => (
             <div key={index} className="vintage-card h-full flex flex-col">
               <div className="aspect-square bg-vintage-cream/10 rounded-lg overflow-hidden flex items-center justify-center mb-6">
