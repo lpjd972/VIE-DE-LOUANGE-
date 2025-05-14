@@ -25,9 +25,9 @@ const Shop = () => {
       link: "https://www.redbubble.com/fr/shop/ap/170442311?asc=u"
     },
     {
-      title: "Collection Clarinette",
-      image: "/lovable-uploads/8207c732-d269-4054-ad07-bf298b1410c3.png",
-      description: "Explorez ma nouvelle collection dédiée à la clarinette. Des designs élégants pour tous les amateurs de cet instrument à vent classique.",
+      title: "JESUS EST ROI",
+      image: "/lovable-uploads/d6a5877c-ea40-488e-acc6-3380c82c142e.png",
+      description: "Explorez ma nouvelle collection dédiée à la foi chrétienne. Des designs élégants pour tous les croyants.",
       link: "https://www.redbubble.com/fr/shop/ap/170486995?asc=u"
     }
   ];
