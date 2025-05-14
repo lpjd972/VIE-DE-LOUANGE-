@@ -23,6 +23,12 @@ const Shop = () => {
       image: "/lovable-uploads/3c87d331-f2be-4674-b12b-f1e68f578413.png",
       description: "Ma collection spéciale avec des designs uniques de saxophone. Exprimez votre foi et votre amour pour la musique avec cette collection exclusive.",
       link: "https://www.redbubble.com/fr/shop/ap/170442311?asc=u"
+    },
+    {
+      title: "Collection Clarinette",
+      image: "/lovable-uploads/8207c732-d269-4054-ad07-bf298b1410c3.png",
+      description: "Explorez ma nouvelle collection dédiée à la clarinette. Des designs élégants pour tous les amateurs de cet instrument à vent classique.",
+      link: "https://www.redbubble.com/fr/shop/ap/170486995?asc=u"
     }
   ];
 
@@ -40,7 +46,7 @@ const Shop = () => {
         </div>
         
         {/* Main Collections Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           {collections.map((collection, index) => (
             <div key={index} className="vintage-card h-full flex flex-col">
               <div className="aspect-square bg-vintage-cream/10 rounded-lg overflow-hidden flex items-center justify-center mb-6">
