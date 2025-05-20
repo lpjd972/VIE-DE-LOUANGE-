@@ -35,6 +35,12 @@ const Shop = () => {
       image: "/lovable-uploads/94e86876-1880-4f94-9f09-043177e2dc6c.png",
       description: "Découvrez notre collection Gospel Sax avec des designs dorés élégants. L'harmonie parfaite entre musique et spiritualité.",
       link: "https://www.redbubble.com/fr/shop/ap/170678156?asc=u"
+    },
+    {
+      title: "Que Tout Ce Qui Respire",
+      image: "/lovable-uploads/32b1b162-30ad-4a05-999a-3d62745f679f.png",
+      description: "Une collection inspirée du Psaume 150:6. Des designs lumineux représentant la louange et la musique sacrée.",
+      link: "https://www.redbubble.com/fr/shop/ap/170820358?asc=u"
     }
   ];
 
@@ -52,7 +58,7 @@ const Shop = () => {
         </div>
         
         {/* Main Collections Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8 mb-16">
           {collections.map((collection, index) => (
             <div key={index} className="vintage-card h-full flex flex-col">
               <div className="aspect-square bg-vintage-cream/10 rounded-lg overflow-hidden flex items-center justify-center mb-6">
