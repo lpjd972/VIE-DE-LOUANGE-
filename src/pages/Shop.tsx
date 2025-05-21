@@ -41,6 +41,12 @@ const Shop = () => {
       image: "/lovable-uploads/32b1b162-30ad-4a05-999a-3d62745f679f.png",
       description: "Une collection inspirée du Psaume 150:6. Des designs lumineux représentant la louange et la musique sacrée.",
       link: "https://www.redbubble.com/fr/shop/ap/170820358?asc=u"
+    },
+    {
+      title: "Gospel Sax Néon",
+      image: "/lovable-uploads/a98719bc-412b-4263-87a4-d91bc3b3e928.png",
+      description: "Notre nouvelle collection Gospel Sax en version néon. Une célébration vibrante de la musique gospel inspirée du Psaume 150:6.",
+      link: "https://www.redbubble.com/fr/shop/ap/170849790?asc=u"
     }
   ];
 
@@ -58,7 +64,7 @@ const Shop = () => {
         </div>
         
         {/* Main Collections Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-6 gap-8 mb-16">
           {collections.map((collection, index) => (
             <div key={index} className="vintage-card h-full flex flex-col">
               <div className="aspect-square bg-vintage-cream/10 rounded-lg overflow-hidden flex items-center justify-center mb-6">
