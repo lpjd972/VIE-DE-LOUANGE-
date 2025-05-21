@@ -28,7 +28,7 @@ const About = () => {
           <div className="relative w-64 h-80 border-4 border-vintage-cream/30 rounded overflow-hidden">
             <Avatar className="w-full h-full rounded-none">
               <AvatarImage 
-                src="/lovable-uploads/8207c732-d269-4054-ad07-bf298b1410c3.png" 
+                src="/lovable-uploads/d73a42d1-83d6-4c84-9719-182670f3186b.png" 
                 alt="Photo de profil avec saxophone" 
                 className="object-cover w-full h-full"
               />
