@@ -2,6 +2,7 @@
 import React from 'react';
 import { Video, Image, Disc, AlertCircle } from 'lucide-react';
 import { AspectRatio } from '@/components/ui/aspect-ratio';
+import { Card, CardContent } from '@/components/ui/card';
 
 const Gallery = () => {
   // Gallery items with one real YouTube video
@@ -12,7 +13,8 @@ const Gallery = () => {
       content: {
         type: 'youtube',
         url: 'https://youtube.com/embed/mlQcn3Mo4lE',
-        title: 'Édouard\'s Saxophone Performance'
+        title: 'Édouard\'s Saxophone Performance',
+        thumbnail: '/lovable-uploads/93c6e307-2bb0-42a4-b987-a377dd814ef0.png'
       }
     },
     { type: 'visuel', icon: <Image size={24} /> },
@@ -33,18 +35,32 @@ const Gallery = () => {
               <div className="h-full flex flex-col">
                 <div className="text-vintage-terracotta mb-2 px-4 pt-4 flex items-center gap-2">
                   {item.icon}
-                  <span className="capitalize">{item.type}</span>
+                  <span className="capitalize">{item.type} - Fête des Mamans</span>
                 </div>
-                <div className="flex-grow px-4 pb-4">
-                  <AspectRatio ratio={9/16} className="overflow-hidden rounded-md">
-                    <iframe 
-                      src={item.content.url}
-                      title={item.content.title}
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                      className="w-full h-full"
+                <div className="flex-grow px-4 pb-4 relative group">
+                  <div className="w-full h-full relative">
+                    <img 
+                      src={item.content.thumbnail} 
+                      alt="Édouard avec son saxophone" 
+                      className="w-full h-full object-cover rounded-md"
                     />
-                  </AspectRatio>
+                    <div className="absolute inset-0 bg-black/60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <a 
+                        href={item.content.url.replace('embed/', 'shorts/')} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          const modal = document.getElementById('video-modal');
+                          if (modal) modal.classList.remove('hidden');
+                        }}
+                        className="bg-vintage-terracotta hover:bg-vintage-darkTerracotta text-white px-4 py-2 rounded-full flex items-center gap-2 transition-colors"
+                      >
+                        <Video size={20} />
+                        Regarder la vidéo
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             ) : (
@@ -58,6 +74,30 @@ const Gallery = () => {
             )}
           </div>
         ))}
+      </div>
+      
+      {/* Video modal */}
+      <div id="video-modal" className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center hidden">
+        <div className="relative w-full max-w-3xl mx-4">
+          <button 
+            onClick={() => {
+              const modal = document.getElementById('video-modal');
+              if (modal) modal.classList.add('hidden');
+            }}
+            className="absolute -top-10 right-0 text-white hover:text-vintage-terracotta"
+          >
+            Fermer
+          </button>
+          <AspectRatio ratio={9/16} className="overflow-hidden rounded-md bg-black">
+            <iframe 
+              src="https://youtube.com/embed/mlQcn3Mo4lE"
+              title="Édouard's Saxophone Performance"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="w-full h-full"
+            />
+          </AspectRatio>
+        </div>
       </div>
       
       <div className="mt-12 text-center text-vintage-cream/60 italic">
