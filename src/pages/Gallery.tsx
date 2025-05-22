@@ -14,7 +14,7 @@ const Gallery = () => {
         type: 'youtube',
         url: 'https://youtube.com/embed/mlQcn3Mo4lE',
         title: 'Édouard\'s Saxophone Performance',
-        thumbnail: '/lovable-uploads/93c6e307-2bb0-42a4-b987-a377dd814ef0.png'
+        thumbnail: '/lovable-uploads/185ab749-5904-47da-90c1-0925f60555ca.png'
       }
     },
     { type: 'visuel', icon: <Image size={24} /> },
@@ -41,7 +41,7 @@ const Gallery = () => {
                   <div className="w-full h-full relative">
                     <img 
                       src={item.content.thumbnail} 
-                      alt="Édouard avec son saxophone" 
+                      alt="Édouard avec son saxophone - Bonne fête des Maman" 
                       className="w-full h-full object-cover rounded-md"
                     />
                     <div className="absolute inset-0 bg-black/60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
