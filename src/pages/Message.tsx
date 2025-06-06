@@ -1,6 +1,6 @@
-
 import React from 'react';
 import { MessageSquare, Heart, Coffee } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 const Message = () => {
   return (
@@ -46,8 +46,15 @@ const Message = () => {
           
           <div className="text-center bg-vintage-cream/10 border border-vintage-cream/30 p-6 rounded-lg">
             <p className="text-lg font-medium mb-4">
-              Lien pour me soutenir : <span className="text-vintage-terracotta font-bold">[ Ton Lien De Soutien ]</span>
+              Lien pour me soutenir :
             </p>
+            <Button 
+              className="bg-vintage-terracotta hover:bg-vintage-darkTerracotta text-vintage-cream font-bold px-6 py-3 text-lg"
+              onClick={() => window.open('https://buy.stripe.com/eVqdRa8YiceG6qQbEnco009', '_blank')}
+            >
+              <Heart className="w-5 h-5 mr-2" />
+              Rejoindre ma team soutien
+            </Button>
           </div>
           
           <p>
