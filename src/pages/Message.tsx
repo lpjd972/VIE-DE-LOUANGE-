@@ -1,4 +1,5 @@
 
+
 import React from 'react';
 import { MessageSquare, Heart, Coffee } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -7,6 +8,15 @@ const Message = () => {
   return (
     <div className="vintage-section container mx-auto px-4">
       <h1 className="text-4xl md:text-5xl font-bold mb-12 text-center">Messages</h1>
+      
+      {/* Image ajoutée entre le titre et le contenu */}
+      <div className="flex justify-center mb-8">
+        <img 
+          src="/lovable-uploads/fd89c346-a93d-4b20-948f-4945179f109b.png" 
+          alt="Soutiens ÉDOUARDS - 2€ par mois pour faire vivre sa musique"
+          className="max-w-md w-full h-auto rounded-lg shadow-lg"
+        />
+      </div>
       
       <div className="vintage-card max-w-4xl mx-auto">
         <div className="text-center mb-8">
@@ -79,3 +89,4 @@ const Message = () => {
 };
 
 export default Message;
+
