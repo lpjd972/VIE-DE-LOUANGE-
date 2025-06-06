@@ -99,9 +99,9 @@ const Support = () => {
             ref={(el) => (elementsRef.current[8] = el)}
           >
             <img 
-              src="/lovable-uploads/b094d5d2-56cb-49c1-84a6-a65ae10ed58f.png" 
-              alt="Soutiens" 
-              className="w-full h-auto rounded-md shadow-lg"
+              src="/lovable-uploads/339dca89-6111-4e73-8e73-94064b785e00.png" 
+              alt="Édouard et sa compagne dans un cadre naturel" 
+              className="w-full h-auto rounded-lg shadow-lg object-cover"
             />
           </div>
           
