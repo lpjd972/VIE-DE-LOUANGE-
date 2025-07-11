@@ -5,7 +5,6 @@ import About from './About';
 import Journey from './Journey';
 import Skills from './Skills';
 import Inspirations from './Inspirations';
-import Shop from './Shop';
 import Message from './Message';
 import Contact from './Contact';
 
@@ -32,10 +31,6 @@ const Index = () => {
       
       <section id="inspirations">
         <Inspirations />
-      </section>
-      
-      <section id="shop">
-        <Shop />
       </section>
       
       <section id="message">
