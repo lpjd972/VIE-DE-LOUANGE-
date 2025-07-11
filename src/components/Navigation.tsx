@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
@@ -15,7 +14,6 @@ const Navigation = () => {
     { name: 'Boutique', path: '/shop' },
     { name: 'Inspirations', path: '/inspirations' },
     { name: 'Message', path: '/message' },
-    { name: 'Soutien', path: '/support' },
     { name: 'Contact', path: '/contact' }
   ];
 

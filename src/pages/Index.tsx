@@ -7,7 +7,6 @@ import Skills from './Skills';
 import Inspirations from './Inspirations';
 import Shop from './Shop';
 import Message from './Message';
-import Support from './Support';
 import Contact from './Contact';
 
 const Index = () => {
@@ -41,10 +40,6 @@ const Index = () => {
       
       <section id="message">
         <Message />
-      </section>
-      
-      <section id="support">
-        <Support />
       </section>
       
       <section id="contact">

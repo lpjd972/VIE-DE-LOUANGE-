@@ -12,7 +12,6 @@ import Skills from "./pages/Skills";
 import Inspirations from "./pages/Inspirations";
 import Shop from "./pages/Shop";
 import Message from "./pages/Message";
-import Support from "./pages/Support";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
@@ -33,7 +32,6 @@ const App = () => (
           <Route path="/inspirations" element={<Inspirations />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/message" element={<Message />} />
-          <Route path="/support" element={<Support />} />
           <Route path="/contact" element={<Contact />} />
           {/* Catch-all route */}
           <Route path="*" element={<NotFound />} />
