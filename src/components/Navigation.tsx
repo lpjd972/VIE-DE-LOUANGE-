@@ -15,7 +15,6 @@ const Navigation = () => {
     { name: 'Boutique', path: '/shop' },
     { name: 'Inspirations', path: '/inspirations' },
     { name: 'Message', path: '/message' },
-    { name: 'Newsletter', path: '/newsletter' },
     { name: 'Soutien', path: '/support' },
     { name: 'Contact', path: '/contact' }
   ];
