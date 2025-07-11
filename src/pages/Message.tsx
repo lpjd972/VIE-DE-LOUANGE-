@@ -1,5 +1,4 @@
 
-
 import React from 'react';
 import { MessageSquare, Heart, Coffee } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -89,4 +88,3 @@ const Message = () => {
 };
 
 export default Message;
-
