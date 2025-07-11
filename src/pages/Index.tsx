@@ -9,7 +9,6 @@ import Shop from './Shop';
 import Message from './Message';
 import Newsletter from './Newsletter';
 import Support from './Support';
-import Gallery from './Gallery';
 import Contact from './Contact';
 
 const Index = () => {
@@ -51,10 +50,6 @@ const Index = () => {
       
       <section id="support">
         <Support />
-      </section>
-      
-      <section id="gallery">
-        <Gallery />
       </section>
       
       <section id="contact">
