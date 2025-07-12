@@ -8,7 +8,6 @@ import Navigation from "./components/Navigation";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Journey from "./pages/Journey";
-import Skills from "./pages/Skills";
 import Inspirations from "./pages/Inspirations";
 import Message from "./pages/Message";
 import Contact from "./pages/Contact";
@@ -27,7 +26,6 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
           <Route path="/journey" element={<Journey />} />
-          <Route path="/skills" element={<Skills />} />
           <Route path="/inspirations" element={<Inspirations />} />
           <Route path="/message" element={<Message />} />
           <Route path="/contact" element={<Contact />} />

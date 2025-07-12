@@ -3,7 +3,6 @@ import React from 'react';
 import VinylHero from '@/components/VinylHero';
 import About from './About';
 import Journey from './Journey';
-import Skills from './Skills';
 import Inspirations from './Inspirations';
 import Message from './Message';
 import Contact from './Contact';
@@ -23,10 +22,6 @@ const Index = () => {
       
       <section id="journey">
         <Journey />
-      </section>
-      
-      <section id="skills">
-        <Skills />
       </section>
       
       <section id="inspirations">
