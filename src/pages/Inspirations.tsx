@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Music, Globe, Heart } from 'lucide-react';
 
@@ -7,7 +6,6 @@ const Inspirations = () => {
     { name: "Gospel", icon: <Music size={20} />, description: "Spirituel et rythmé" },
     { name: "Louange", icon: <Heart size={20} />, description: "Expressif et mélodieux" },
     { name: "Adoration", icon: <Heart size={20} />, description: "Profond et méditatif" },
-    { name: "World Music", icon: <Globe size={20} />, description: "Varié et culturel" },
     { name: "Rythmes africains", icon: <Music size={20} />, description: "Énergique et authentique" }
   ];
   
@@ -29,7 +27,7 @@ const Inspirations = () => {
       <div className="mb-12">
         <h2 className="text-2xl font-bold mb-6 text-center">Styles explorés</h2>
         
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {musicStyles.map((style, index) => (
             <div key={index} className="vintage-card bg-vintage-cream/5 text-center">
               <div className="text-vintage-terracotta mb-2">{style.icon}</div>
