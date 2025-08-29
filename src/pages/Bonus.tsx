@@ -26,8 +26,15 @@ const Bonus = () => {
     setShowDonationReminder(false);
   };
 
-  // Exemples de prédications - à remplacer par les vrais liens YouTube
+  // Mes réalisations musicales inspirées par la Parole de Dieu
   const predications = [
+    {
+      title: "Réalisation musicale inspirée",
+      description: "Une création basée sur la Parole de Dieu et la vie de Christ en moi",
+      youtubeId: "EPNupdyoZSg",
+      date: "2024-08-29",
+      duration: "Short"
+    },
     {
       title: "La foi qui transforme",
       description: "Une méditation sur la puissance de la foi selon Hébreux 11",
