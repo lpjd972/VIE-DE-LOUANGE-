@@ -96,11 +96,11 @@ const Bonus = () => {
         {/* En-tête */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Bonus Spirituel
+            BONUS MUSIQUE
           </h1>
           <p className="text-xl md:text-2xl text-vintage-cream/80 max-w-3xl mx-auto">
-            Découvrez des messages inspirants basés sur la Parole de Dieu. 
-            Accessible gratuitement à tous pour nourrir votre foi.
+            Découvrez des vidéos de mes réalisation inspirants basés sur la parole de DIEU, 
+            la vie de CHRIST en moi, Accessible gratuitement à tous pour nourrir votre FOI
           </p>
         </div>
 
