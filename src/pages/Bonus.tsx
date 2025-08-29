@@ -29,9 +29,9 @@ const Bonus = () => {
   // Mes réalisations musicales inspirées par la Parole de Dieu
   const predications = [
     {
-      title: "#1 - Réalisation musicale inspirée",
+      title: "#1 - Nouvelle création spirituelle",
       description: "Une création basée sur la Parole de Dieu et la vie de Christ en moi",
-      youtubeId: "EPNupdyoZSg",
+      youtubeId: "mlQcn3Mo4lE",
       date: "2024-08-29",
       duration: "Short"
     },
@@ -40,6 +40,13 @@ const Bonus = () => {
       description: "Une nouvelle création inspirée par la Parole de Dieu",
       youtubeId: "5V3JFAPdvug",
       date: "2024-08-28",
+      duration: "Short"
+    },
+    {
+      title: "#3 - Réalisation musicale inspirée",
+      description: "Une création basée sur la Parole de Dieu et la vie de Christ en moi",
+      youtubeId: "EPNupdyoZSg",
+      date: "2024-08-27",
       duration: "Short"
     }
   ];
