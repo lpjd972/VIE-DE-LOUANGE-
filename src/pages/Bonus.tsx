@@ -29,7 +29,7 @@ const Bonus = () => {
   // Mes réalisations musicales inspirées par la Parole de Dieu
   const predications = [
     {
-      title: "#1 - Nouvelle création spirituelle",
+      title: "#1 - surprise fête des mères",
       description: "Une création basée sur la Parole de Dieu et la vie de Christ en moi",
       youtubeId: "mlQcn3Mo4lE",
       date: "2024-08-29",
