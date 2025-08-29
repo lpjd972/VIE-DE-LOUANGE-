@@ -41,34 +41,6 @@ const Bonus = () => {
       youtubeId: "5V3JFAPdvug",
       date: "2024-08-28",
       duration: "Short"
-    },
-    {
-      title: "#3 - La foi qui transforme",
-      description: "Une méditation sur la puissance de la foi selon Hébreux 11",
-      youtubeId: "dQw4w9WgXcQ", // À remplacer par le vrai ID YouTube
-      date: "2024-01-15",
-      duration: "25 min"
-    },
-    {
-      title: "#4 - L'amour de Dieu manifesté",
-      description: "Découvrir l'amour inconditionnel de Dieu selon 1 Jean 4",
-      youtubeId: "dQw4w9WgXcQ", // À remplacer par le vrai ID YouTube
-      date: "2024-01-08",
-      duration: "32 min"
-    },
-    {
-      title: "#5 - Marcher dans la lumière",
-      description: "Comment vivre selon la volonté de Dieu selon Éphésiens 5",
-      youtubeId: "dQw4w9WgXcQ", // À remplacer par le vrai ID YouTube
-      date: "2024-01-01",
-      duration: "28 min"
-    },
-    {
-      title: "#6 - La paix qui surpasse toute intelligence",
-      description: "Trouver la paix de Dieu selon Philippiens 4:7",
-      youtubeId: "dQw4w9WgXcQ", // À remplacer par le vrai ID YouTube
-      date: "2023-12-25",
-      duration: "22 min"
     }
   ];
 
