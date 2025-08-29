@@ -30,21 +30,21 @@ const Bonus = () => {
   const predications = [
     {
       title: "#1 - surprise fête des mères",
-      description: "Une création basée sur la Parole de Dieu et la vie de Christ en moi",
+      description: "mes debuts en saxophone",
       youtubeId: "mlQcn3Mo4lE",
       date: "2024-08-29",
       duration: "Short"
     },
     {
       title: "#2 - Nouvelle réalisation spirituelle",
-      description: "Une nouvelle création inspirée par la Parole de Dieu",
+      description: "mes debuts en saxophone",
       youtubeId: "5V3JFAPdvug",
       date: "2024-08-28",
       duration: "Short"
     },
     {
       title: "#3 - Réalisation musicale inspirée",
-      description: "Une création basée sur la Parole de Dieu et la vie de Christ en moi",
+      description: "mes debuts en saxophone",
       youtubeId: "EPNupdyoZSg",
       date: "2024-08-27",
       duration: "Short"
