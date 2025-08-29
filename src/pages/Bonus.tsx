@@ -48,6 +48,13 @@ const Bonus = () => {
       youtubeId: "EPNupdyoZSg",
       date: "2024-08-27",
       duration: "Short"
+    },
+    {
+      title: "#4 - entrainement sur l'arpège de Ré7 / D7",
+      description: "mes debuts en saxophone",
+      youtubeId: "H9jftPZQ2B8",
+      date: "2024-08-26",
+      duration: "Short"
     }
   ];
 
