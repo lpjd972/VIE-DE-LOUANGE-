@@ -33,7 +33,7 @@ const About = () => {
                 className="object-cover w-full h-full"
               />
               <AvatarFallback className="w-full h-full text-lg bg-vintage-cream/10">
-                ÉDOUARD'S
+                VIE DE LOUANGE
               </AvatarFallback>
             </Avatar>
           </div>

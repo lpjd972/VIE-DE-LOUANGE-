@@ -24,7 +24,7 @@ const VinylHero = () => {
       
       {/* Main content */}
       <div className="text-center z-10 max-w-4xl mx-auto">
-        <h1 className="text-6xl md:text-8xl font-bold text-vintage-cream mb-4">ÉDOUARD'S</h1>
+        <h1 className="text-6xl md:text-8xl font-bold text-vintage-cream mb-4">VIE DE LOUANGE</h1>
         <h2 className="text-2xl md:text-3xl font-light text-vintage-cream/80 mb-12">Portfolio Musical</h2>
         
         <div className="relative flex justify-center mb-16">

@@ -12,7 +12,7 @@ const Message = () => {
       <div className="flex justify-center mb-8">
         <img 
           src="/lovable-uploads/fd89c346-a93d-4b20-948f-4945179f109b.png" 
-          alt="Soutiens ÉDOUARDS - 2€ par mois pour faire vivre sa musique"
+          alt="Soutiens VIE DE LOUANGE - 2€ par mois pour faire vivre sa musique"
           className="max-w-md w-full h-auto rounded-lg shadow-lg"
         />
       </div>
@@ -78,7 +78,7 @@ const Message = () => {
               <span>Merci de m'avoir lu ! Que DIEU te bénisse ✨</span>
             </div>
             <p className="text-2xl font-bold text-vintage-terracotta mt-4">
-              – ÉDOUARD'S
+              – VIE DE LOUANGE
             </p>
           </div>
         </div>
