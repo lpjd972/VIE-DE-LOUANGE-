@@ -54,7 +54,24 @@
   }
 
   body {
-    @apply bg-vintage-teal text-vintage-cream font-vintage;
+    @apply bg-vintage-teal text-vintage-cream font-vintage relative;
+  }
+  
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/lovable-uploads/2e373c61-0809-429d-b989-6f4938af3801.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    opacity: 0.03;
+    filter: sepia(1) hue-rotate(160deg) saturate(2) brightness(1.2);
+    pointer-events: none;
+    z-index: 0;
   }
   
   h1, h2, h3 {
