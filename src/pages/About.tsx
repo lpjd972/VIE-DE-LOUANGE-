@@ -7,7 +7,7 @@ const About = () => {
     <div className="vintage-section container mx-auto px-4">
       <h1 className="text-4xl md:text-5xl font-bold mb-12 text-center">À propos de moi</h1>
       
-      <div className="grid md:grid-cols-2 gap-12 items-center">
+      <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
         <div className="vintage-card">
           <h2 className="text-2xl md:text-3xl font-bold mb-6">Mini Biographie</h2>
           <p className="text-vintage-cream/90 mb-6">
@@ -25,7 +25,7 @@ const About = () => {
         </div>
         
         <div className="flex justify-center">
-          <div className="relative w-64 h-80 border-4 border-vintage-cream/30 rounded overflow-hidden">
+          <div className="relative w-48 h-60 sm:w-56 sm:h-72 md:w-64 md:h-80 border-4 border-vintage-cream/30 rounded overflow-hidden">
             <Avatar className="w-full h-full rounded-none">
               <AvatarImage 
                 src="/lovable-uploads/d73a42d1-83d6-4c84-9719-182670f3186b.png" 

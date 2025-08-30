@@ -65,8 +65,8 @@ const Bonus = () => {
         
         {/* Rappel de donation */}
         {showDonationReminder && (
-          <div className="fixed top-20 right-4 z-50 animate-slide-in">
-            <Card className="vintage-card border-vintage-terracotta bg-vintage-cream/95 text-vintage-teal p-4 max-w-sm">
+          <div className="fixed top-20 right-2 sm:right-4 z-50 animate-slide-in">
+            <Card className="vintage-card border-vintage-terracotta bg-vintage-cream/95 text-vintage-teal p-3 sm:p-4 max-w-xs sm:max-w-sm">
               <div className="flex justify-between items-start mb-3">
                 <Heart className="text-vintage-terracotta mt-1" size={20} />
                 <button 
@@ -126,7 +126,7 @@ const Bonus = () => {
         </div>
 
         {/* Liste des prédications */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6">
           {predications.map((predication, index) => (
             <Card key={index} className="vintage-card bg-vintage-cream/5 hover:bg-vintage-cream/10 transition-all duration-300">
               {/* Miniature YouTube */}

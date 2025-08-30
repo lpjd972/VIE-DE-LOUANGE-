@@ -89,7 +89,7 @@
   }
   
   .vintage-button {
-    @apply px-4 py-2 bg-vintage-terracotta text-vintage-cream rounded-md font-semibold hover:bg-vintage-darkTerracotta transition-colors;
+    @apply px-2 py-2 sm:px-4 bg-vintage-terracotta text-vintage-cream rounded-md font-semibold hover:bg-vintage-darkTerracotta transition-colors text-sm sm:text-base;
   }
   
   .vintage-input {

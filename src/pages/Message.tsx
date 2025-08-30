@@ -9,11 +9,11 @@ const Message = () => {
       <h1 className="text-4xl md:text-5xl font-bold mb-12 text-center">Messages</h1>
       
       {/* Image ajoutée entre le titre et le contenu */}
-      <div className="flex justify-center mb-8">
+      <div className="flex justify-center mb-8 px-4">
         <img 
           src="/lovable-uploads/d00bc737-c69a-4129-8df3-befb8990e731.png" 
           alt="Soutiens VIE DE LOUANGE - 2€ par mois pour faire vivre sa musique"
-          className="max-w-md w-full h-auto rounded-lg shadow-lg"
+          className="max-w-full w-full sm:max-w-md h-auto rounded-lg shadow-lg"
         />
       </div>
       
@@ -48,9 +48,11 @@ const Message = () => {
             </ul>
           </div>
           
-          <div className="flex items-center justify-center space-x-2 text-xl font-semibold text-vintage-terracotta my-8">
-            <span>👉</span>
-            <Coffee size={24} />
+          <div className="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-2 text-lg sm:text-xl font-semibold text-vintage-terracotta my-8 text-center">
+            <div className="flex items-center space-x-2">
+              <span>👉</span>
+              <Coffee size={24} />
+            </div>
             <span>Pour 2 € par mois (le prix d'un café ☕), tu peux rejoindre ma team soutien et m'aider à faire vivre cette aventure 🎷🔥</span>
           </div>
           

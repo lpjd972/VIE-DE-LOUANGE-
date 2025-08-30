@@ -27,7 +27,7 @@ const Inspirations = () => {
       <div className="mb-12">
         <h2 className="text-2xl font-bold mb-6 text-center">Styles explorés</h2>
         
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {musicStyles.map((style, index) => (
             <div key={index} className="vintage-card bg-vintage-cream/5 text-center">
               <div className="text-vintage-terracotta mb-2">{style.icon}</div>
@@ -44,7 +44,7 @@ const Inspirations = () => {
         <div className="vintage-card bg-vintage-cream/5">
           <h3 className="text-xl font-semibold mb-4">Futurs styles à explorer</h3>
           
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 gap-4">
             {futureStyles.map((style, index) => (
               <div key={index} className="bg-vintage-teal border border-vintage-cream/10 rounded p-3 text-center">
                 <p className="text-vintage-cream/80">{style}</p>
