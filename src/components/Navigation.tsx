@@ -22,7 +22,7 @@ const Navigation = () => {
     <nav className="fixed top-0 left-0 w-full z-50 bg-vintage-teal/80 backdrop-blur-sm border-b border-vintage-cream/20">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link to="/" className="text-vintage-cream text-2xl font-bold">
-          ÉDOUARD'S
+          VIE DE LOUANGE
         </Link>
         
         {isMobile ? (

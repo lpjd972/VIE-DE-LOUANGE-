@@ -43,7 +43,7 @@ const Index = () => {
       
       {/* Footer */}
       <footer className="py-6 text-center text-vintage-cream/50 text-sm">
-        <p>© {new Date().getFullYear()} ÉDOUARD'S - Portfolio Musical</p>
+        <p>© {new Date().getFullYear()} VIE DE LOUANGE - Portfolio Musical</p>
       </footer>
     </div>
   );
