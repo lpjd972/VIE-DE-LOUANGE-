@@ -11,7 +11,7 @@ const Message = () => {
       {/* Image ajoutée entre le titre et le contenu */}
       <div className="flex justify-center mb-8 px-4">
         <img 
-          src="/lovable-uploads/d00bc737-c69a-4129-8df3-befb8990e731.png" 
+          src="/lovable-uploads/4e08423d-b2c4-409e-b728-f1e23bc23271.png" 
           alt="Soutiens VIE DE LOUANGE - 2€ par mois pour faire vivre sa musique"
           className="max-w-full w-full sm:max-w-md h-auto rounded-lg shadow-lg"
         />
