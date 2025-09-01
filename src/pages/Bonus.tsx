@@ -55,6 +55,13 @@ const Bonus = () => {
       youtubeId: "H9jftPZQ2B8",
       date: "2024-08-26",
       duration: "Short"
+    },
+    {
+      title: "#5 - Nouvelle création musicale",
+      description: "mes debuts en saxophone",
+      youtubeId: "0kazX14mpCA",
+      date: "2024-08-25",
+      duration: "Short"
     }
   ];
 
