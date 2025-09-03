@@ -62,6 +62,13 @@ const Bonus = () => {
       youtubeId: "0kazX14mpCA",
       date: "2024-08-25",
       duration: "Short"
+    },
+    {
+      title: "#6 - Entraînement d'improvisation accord de Cmaj7 en 2-5-1",
+      description: "#saxophone #music #trainingmusic #blues #jazz",
+      youtubeId: "y5e3HoD3Sas",
+      date: "2024-08-24",
+      duration: "Short"
     }
   ];
 
