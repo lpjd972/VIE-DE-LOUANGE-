@@ -69,6 +69,13 @@ const Bonus = () => {
       youtubeId: "y5e3HoD3Sas",
       date: "2024-08-24",
       duration: "Short"
+    },
+    {
+      title: "#7 - improvisation JAZZ ( débutant )",
+      description: "Depuis peu j'ai commencé l'improvisation JAZZ conseillé par et pour le SEIGNEUR au travers de frères de l'église 🙏🏾🎷\n\nVoici le résultat D'une semaine d'exercice, ce témoignage est aussi un exemple pour vous montrer que sans JESUS tout ce que l'on veut faire comme projet sans lui, il y aura zéro résultats.\n\nMerci SEIGNEUR POUR TOUT, plein d'autre news à venir,\n\n❤️🤗expérimentons cette FOI que nous avons ou que nous souhaitons avoir en CHRIST notre SEIGNEUR tout en ayant une conviction que par sa PAROLE et son regard précieux nous réussirons dans des projets selon sa volonté\n\nSoyez bénis\n\n#saxophone #music #trainingmusic #blues #jazz",
+      youtubeId: "6HJ4DvD8ARU",
+      date: "2024-08-23",
+      duration: "Short"
     }
   ];
 
