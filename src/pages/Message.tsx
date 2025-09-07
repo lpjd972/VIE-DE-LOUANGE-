@@ -62,7 +62,7 @@ const Message = () => {
             </p>
             <Button 
               className="bg-vintage-terracotta hover:bg-vintage-darkTerracotta text-vintage-cream font-bold px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-lg"
-              onClick={() => window.open('https://buy.stripe.com/test_fZuaEZb4I1JjeiV9np6c000', '_blank')}
+              onClick={() => window.open('https://buy.stripe.com/eVqdRa8YiceG6qQbEnco009', '_blank')}
             >
               <Heart className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
               Rejoindre ma team soutien
