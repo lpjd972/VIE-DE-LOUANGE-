@@ -57,7 +57,7 @@ const Contact = () => {
             </div>
             
             <div className="bg-vintage-cream/10 rounded-md p-4 text-center">
-              <p className="text-vintage-cream/90">contact@viedelouange.com</p>
+              <p className="text-vintage-cream/90">viedelouange64@gmail.com</p>
             </div>
           </div>
         </div>
