@@ -50,7 +50,7 @@ const Contact = () => {
             </div>
           </div>
           
-          <div className="vintage-card">
+          <div className="vintage-card" id="email-professionnel">
             <div className="flex items-center gap-3 mb-4">
               <Mail size={24} className="text-vintage-terracotta" />
               <h2 className="text-2xl font-bold">Email professionnel</h2>

@@ -42,7 +42,7 @@ const VinylHero = () => {
         
         {/* Contact buttons */}
         <div className="flex flex-wrap justify-center gap-2 sm:gap-4 mb-16 px-2">
-          <a href="mailto:viedelouange64@gmail.com" className="vintage-button flex items-center gap-1 sm:gap-2 text-sm sm:text-base px-2 sm:px-4">
+          <a href="/contact#email-professionnel" className="vintage-button flex items-center gap-1 sm:gap-2 text-sm sm:text-base px-2 sm:px-4">
             <Mail size={16} className="sm:w-[18px] sm:h-[18px]" />
             <span className="hidden xs:inline">Email</span>
           </a>
