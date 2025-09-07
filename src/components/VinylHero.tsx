@@ -1,13 +1,26 @@
 
 import React from 'react';
 import { Music, Disc, Headphones, Instagram, Mail, Youtube, ChevronDown } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 const VinylHero = () => {
+  const navigate = useNavigate();
+  
   const scrollToNext = () => {
     window.scrollTo({
       top: window.innerHeight,
       behavior: 'smooth'
     });
+  };
+
+  const handleEmailClick = () => {
+    navigate('/contact');
+    setTimeout(() => {
+      const element = document.getElementById('email-professionnel');
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 100);
   };
 
   return (
@@ -42,10 +55,10 @@ const VinylHero = () => {
         
         {/* Contact buttons */}
         <div className="flex flex-wrap justify-center gap-2 sm:gap-4 mb-16 px-2">
-          <a href="/contact#email-professionnel" className="vintage-button flex items-center gap-1 sm:gap-2 text-sm sm:text-base px-2 sm:px-4">
+          <button onClick={handleEmailClick} className="vintage-button flex items-center gap-1 sm:gap-2 text-sm sm:text-base px-2 sm:px-4">
             <Mail size={16} className="sm:w-[18px] sm:h-[18px]" />
             <span className="hidden xs:inline">Email</span>
-          </a>
+          </button>
           <a href="https://www.instagram.com/jean_denis_972/" target="_blank" rel="noopener noreferrer" className="vintage-button flex items-center gap-1 sm:gap-2 text-sm sm:text-base px-2 sm:px-4">
             <Instagram size={16} className="sm:w-[18px] sm:h-[18px]" />
             <span className="hidden xs:inline">Instagram</span>
