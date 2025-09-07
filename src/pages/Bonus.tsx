@@ -105,7 +105,7 @@ const Bonus = () => {
               <Button 
                 variant="outline" 
                 size="sm"
-                onClick={() => window.open('https://buy.stripe.com/28o4j99xG4UU5mE4gh', '_blank')}
+                onClick={() => window.open('https://buy.stripe.com/eVqdRa8YiceG6qQbEnco009', '_blank')}
                 className="w-full text-vintage-terracotta border-vintage-terracotta hover:bg-vintage-terracotta hover:text-vintage-cream"
               >
                 Soutenir 2€/mois
@@ -138,7 +138,7 @@ const Bonus = () => {
           </p>
           <Button 
             variant="outline"
-            onClick={() => window.open('https://buy.stripe.com/test_fZuaEZb4I1JjeiV9np6c000', '_blank')}
+            onClick={() => window.open('https://buy.stripe.com/eVqdRa8YiceG6qQbEnco009', '_blank')}
             className="text-vintage-terracotta border-vintage-terracotta hover:bg-vintage-terracotta hover:text-vintage-cream"
           >
             <Heart size={16} className="mr-2" />
