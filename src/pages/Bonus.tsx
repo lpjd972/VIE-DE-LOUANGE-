@@ -76,6 +76,13 @@ const Bonus = () => {
       youtubeId: "6HJ4DvD8ARU",
       date: "2024-08-23",
       duration: "Short"
+    },
+    {
+      title: "#8 - ADD BIARRITZ petit moment de louange réaliser avec le chant \" LE NOM DE JESUS \"",
+      description: "ADD BIARRITZ petit moment de louange réaliser avec le chant \" LE NOM DE JESUS \"\n\nchère frère et sœur, je vous invite à lire et à  partager le passage du PSAUMES 150  \nsoyez édifier dans la présence de DIEU le père\n\n#saxophone #music #trainingmusic #blues #jazz",
+      youtubeId: "UeHm7EheYRk",
+      date: "2024-12-11",
+      duration: "Short"
     }
   ];
 
