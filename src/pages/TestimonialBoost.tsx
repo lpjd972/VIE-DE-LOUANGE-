@@ -11,6 +11,19 @@ const TestimonialBoost = () => {
   const testimonials = [
     {
       id: 1,
+      title: "Marcher et écouter l'Esprit au quotidien",
+      description: "Salut à tous voici une petite vidéo, d'une série de vidéo de témoignage. Édifier la communauté des croyants, vous aider dans votre quotidien spirituel, et vous permettre de partager ces bénédictions avec votre entourage. Que ces témoignages soient des vitamines spirituelles pour rester constamment dans la présence de Dieu le Père et du Saint-Esprit, et expérimenter avec foi et conviction cette vie de l'Esprit. #louange #louangechrétienne #musician #temoignagechretien #holyspirit #holyghost #evangile",
+      formats: {
+        video: "https://www.youtube.com/watch?v=example1",
+        audio: "/audio/temoignage1.mp3",
+        text: "Marcher et écouter l'Esprit au quotidien, c'est apprendre à vivre dans une communion constante avec Dieu..."
+      },
+      date: "2024-12-15",
+      duration: "10 min",
+      tags: ["louange", "louangechrétienne", "musician", "temoignagechretien", "holyspirit", "holyghost", "evangile"]
+    },
+    {
+      id: 2,
       title: "La fidélité de Dieu dans les épreuves",
       description: "Témoignage personnel sur comment Dieu m'a porté à travers les moments difficiles et comment Sa fidélité ne fait jamais défaut.",
       formats: {
