@@ -10,6 +10,7 @@ import About from "./pages/About";
 import Journey from "./pages/Journey";
 import Inspirations from "./pages/Inspirations";
 import Message from "./pages/Message";
+import TestimonialBoost from "./pages/TestimonialBoost";
 import Bonus from "./pages/Bonus";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
@@ -29,6 +30,7 @@ const App = () => (
           <Route path="/journey" element={<Journey />} />
           <Route path="/inspirations" element={<Inspirations />} />
           <Route path="/message" element={<Message />} />
+          <Route path="/testimonial-boost" element={<TestimonialBoost />} />
           <Route path="/bonus" element={<Bonus />} />
           <Route path="/contact" element={<Contact />} />
           {/* Catch-all route */}
