@@ -23,16 +23,14 @@ const TestimonialBoost = () => {
     },
     {
       id: 2,
-      title: "La fidélité de Dieu dans les épreuves",
-      description: "Témoignage personnel sur comment Dieu m'a porté à travers les moments difficiles et comment Sa fidélité ne fait jamais défaut.",
+      title: "LE SAINT-ESPRIT PARLE",
+      description: "LE SAINT-ESPRIT PARLE Que ces témoignages soient des vitamines spirituelles pour rester constamment dans la présence de Dieu le Père et du Saint-Esprit, et expérimenter avec foi et conviction cette vie de l'Esprit. #louange #louangechrétienne #musician #temoignagechretien #holyspirit #holyghost #evangile",
       formats: {
-        video: "https://www.youtube.com/watch?v=example1",
-        audio: "/audio/temoignage1.mp3",
-        text: "Dans ma vie, j'ai traversé des moments où tout semblait s'écrouler autour de moi..."
+        video: "https://youtu.be/2iFlPqtaFjA"
       },
       date: "2024-12-10",
       duration: "8 min",
-      tags: ["Fidélité", "Épreuves", "Espoir"]
+      tags: ["louange", "evangile", "holyghost", "holyspirit", "yahwé", "JESUS", "TEMOIGNAGE", "foi", "parolededieu"]
     },
     {
       id: 2,
