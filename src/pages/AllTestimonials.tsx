@@ -65,20 +65,20 @@ const AllTestimonials = () => {
       <div className="texture-overlay" />
       <div className="container mx-auto max-w-6xl relative z-10">
         
-        {/* Header avec bouton retour */}
-        <div className="flex items-center mb-8">
-          <Button
-            variant="outline"
-            onClick={() => navigate('/testimonial-boost')}
-            className="mr-4 text-vintage-terracotta border-vintage-terracotta hover:bg-vintage-terracotta hover:text-vintage-cream"
-          >
-            <ArrowLeft size={16} className="mr-2" />
-            Retour
-          </Button>
-          <h1 className="text-3xl md:text-5xl font-bold">
-            Tous les témoignages
-          </h1>
-        </div>
+      {/* Header avec bouton retour */}
+      <div className="flex items-center mb-8 pt-8">
+        <Button
+          variant="outline"
+          onClick={() => navigate('/testimonial-boost')}
+          className="mr-4 text-vintage-terracotta border-vintage-terracotta hover:bg-vintage-terracotta hover:text-vintage-cream"
+        >
+          <ArrowLeft size={16} className="mr-2" />
+          Retour
+        </Button>
+        <h1 className="text-3xl md:text-5xl font-bold">
+          Tous les témoignages
+        </h1>
+      </div>
 
         {/* Liste des témoignages */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">

@@ -42,7 +42,7 @@ const TextTestimonials = () => {
       <div className="container mx-auto max-w-6xl relative z-10">
         
         {/* Header avec bouton retour */}
-        <div className="flex items-center mb-8">
+        <div className="flex items-center mb-8 pt-8">
           <Button
             variant="outline"
             onClick={() => navigate('/testimonial-boost')}
