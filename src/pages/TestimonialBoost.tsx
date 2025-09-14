@@ -15,8 +15,7 @@ const TestimonialBoost = () => {
       description: "Salut à tous voici une petite vidéo, d'une série de vidéo de témoignage. Édifier la communauté des croyants, vous aider dans votre quotidien spirituel, et vous permettre de partager ces bénédictions avec votre entourage. Que ces témoignages soient des vitamines spirituelles pour rester constamment dans la présence de Dieu le Père et du Saint-Esprit, et expérimenter avec foi et conviction cette vie de l'Esprit. #louange #louangechrétienne #musician #temoignagechretien #holyspirit #holyghost #evangile",
       formats: {
         video: "https://youtu.be/kowJCjxunyU",
-        audio: "/audio/marcher-ecouter-esprit.m4a",
-        text: "Marcher et écouter l'Esprit au quotidien, c'est apprendre à vivre dans une communion constante avec Dieu..."
+        audio: "/audio/marcher-ecouter-esprit.m4a"
       },
       date: "2024-12-15",
       duration: "10 min",
