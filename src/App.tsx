@@ -11,6 +11,10 @@ import Journey from "./pages/Journey";
 import Inspirations from "./pages/Inspirations";
 import Message from "./pages/Message";
 import TestimonialBoost from "./pages/TestimonialBoost";
+import AllTestimonials from "./pages/AllTestimonials";
+import VideoTestimonials from "./pages/VideoTestimonials";
+import AudioTestimonials from "./pages/AudioTestimonials";
+import TextTestimonials from "./pages/TextTestimonials";
 import Bonus from "./pages/Bonus";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
@@ -31,6 +35,10 @@ const App = () => (
           <Route path="/inspirations" element={<Inspirations />} />
           <Route path="/message" element={<Message />} />
           <Route path="/testimonial-boost" element={<TestimonialBoost />} />
+          <Route path="/all-testimonials" element={<AllTestimonials />} />
+          <Route path="/video-testimonials" element={<VideoTestimonials />} />
+          <Route path="/audio-testimonials" element={<AudioTestimonials />} />
+          <Route path="/text-testimonials" element={<TextTestimonials />} />
           <Route path="/bonus" element={<Bonus />} />
           <Route path="/contact" element={<Contact />} />
           {/* Catch-all route */}
