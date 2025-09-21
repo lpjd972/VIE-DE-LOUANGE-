@@ -33,17 +33,15 @@ const TestimonialBoost = () => {
       tags: ["louange", "evangile", "holyghost", "holyspirit", "yahwé", "JESUS", "TEMOIGNAGE", "foi", "parolededieu"]
     },
     {
-      id: 2,
-      title: "L'importance de la prière quotidienne",
-      description: "Comment établir une relation intime avec Dieu à travers la prière constante et l'écoute de Sa voix.",
+      id: 3,
+      title: "Projet utile ou pas ?",
+      description: "Projet utile ou pas ? salut salut, je t'invite vraiment à partager ce moment avec moi au cours de ce témoignage que j'apporte afin de prendre conscience de ce que le SEIGNEUR peut mettre en œuvre pour toi, au niveau de tes projets ou peut être les corriger. tu es béni au nom de JESUS #louange #louangechrétienne #musician #temoignagechretien #holyspirit #holyghost #evangile",
       formats: {
-        video: "https://www.youtube.com/watch?v=example2",
-        audio: "/audio/temoignage2.mp3",
-        text: "La prière n'est pas seulement un acte religieux, c'est une conversation avec notre Père céleste..."
+        video: "https://youtu.be/wakbVVDaP84"
       },
       date: "2024-12-08",
       duration: "12 min",
-      tags: ["Prière", "Intimité", "Relation"]
+      tags: ["louange", "evangile", "holyghost", "holyspirit", "yahwé", "JESUS", "TEMOIGNAGE", "foi", "parolededieu"]
     },
     {
       id: 3,
